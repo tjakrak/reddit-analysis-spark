@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Dec 16 14:39:00 PST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0185-1d17-3e39-000011a8d8f8 
+on database directory /home/rgtjakrakartadinata/P3-reddit-analysis-spark/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@7aec35a 
+Loaded from file:/bigdata/spark-3.3.0-bin-hadoop3/jars/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.16+11-LTS-199
+user.dir=/home/rgtjakrakartadinata/P3-reddit-analysis-spark
+os.name=Linux
+os.arch=amd64
+os.version=5.14.0-162.6.1.el9_1.x86_64
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
