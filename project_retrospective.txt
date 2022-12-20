@@ -1,0 +1,19 @@
+Project Retrospective - P3
+Provide answers to the following questions and submit a PDF via Canvas. Be sure to answer the questions completely and explain your logic.
+1. You’ve now had the chance to work with both MapReduce and Spark. In your opinion, what are the pros and cons of both?
+I think spark is better than MapReduce. Whatever MapReduce does, Spark is able to do it too. As mentioned in the class, the pros of spark is that we can process a live streaming data while MapReduce is better working with batches. However, it is hard to tell the pros and cons of both since our project for MapReduce and Spark are kind of different. The only thing that I can think of is that MapReduce process really slow because we have to store the result to disk for every operation. Spark is faster since the map and reduce jobs are processed in RAM, but I think the limitation is that spark cannot process a huge batches of data.
+
+2. Was there something that you thought would be easy to implement in Spark but it turned out that it wasn’t?
+I think the hard part of the implementation in spark is the functional programming part. Even though it is not a lot of functional programming, but it takes a long time to learn in the beginning. The second thing that I thought would be easy is dataframe in Spark. At first, I thought it will be exactly the same as Panda dataframe, but it is actually not exactly the same. Also it takes a while to get used to work with RDD, SparkSQL and Dataframe.
+
+3. Were there any confusing or surprising aspects of working with Spark? Did you come across some functionality that made your life easier or the computations run faster?
+I think the confusing part is that I am not able to read the 2018 onwards files. I can read the reservoir sample, but not able to read the full file. One functionality that I think can make my life easier is approx_count_distinct() from Spark. It is shared by one of the students in class, but I did not get the chance to use it. One thing that makes me works faster is the jupyter notebook shorcuts to insert a cell above, below and run the commands.
+
+4. Give a rough estimate of how long you spent completing this assignment. What part of the assignment took the most time?
+I think I work on this assignment around 48 hours. What takes me the longest time is figuring out the syntax and the functional programming part. Most importantly dealing with bugs in the cluster such as: insufficient heap space, frame requires too much memory to decode, workers dead (no resources found). A lot of restarting cluster again and again. Additionally, since the data is big, once my cluster is dead or encounter any bugs, I have to restart and wait a long time to get back the result again. In terms of question, I think the Self-Directed Analysis and Personal Dataset Analysis one takes the longest since I don't know what kind of questions I have to answer to get full points.
+
+5. What went well?
+One thing that went well for this assignment is the collaborative part where the students can share their approach on Campuswire. It really helps me a lot in figuring out the questions that I do not know how to answer or my approach is not correct.
+
+What didn’t go well?
+One thing did not go well for me is debugging why my spark cluster is not working. I think a lot of things that are not going well for me is more external stuffs. Such as my internet connection is not stable, Spark cluster is not working, my laptop battery died, and many others.
